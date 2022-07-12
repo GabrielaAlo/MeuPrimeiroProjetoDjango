@@ -2,6 +2,7 @@ from multiprocessing import set_forkserver_preload
 from django.db import models
 
 # Create your models here.
+# Crie seus modelos aqui.
 class Funcionario(models.Model):
     CARGOS = [
         ('ES', 'Estagiário'),
